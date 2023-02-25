@@ -1,0 +1,16 @@
+body {
+    background-color: grey;
+    color: whitesmoke;
+    background-image: url("../images/cool-background.png");
+    height: 100%;
+}
+
+.container {
+    background-color: rgba(41, 41, 41, 0.95);
+    border-radius: 1em;
+    border-color: rgba(245, 245, 245, 0.5);
+    border-style: solid;
+    padding: 2rem;
+    margin-top: 5%;
+    height: 100%;
+}
