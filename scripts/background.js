@@ -1,5 +1,5 @@
 window.onload = function () {
-
+    // Initalizes particles.js on window load
     Particles.init({
         selector: '.background',
         connectParticles: true,

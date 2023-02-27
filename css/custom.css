@@ -1,7 +1,6 @@
 body {
     background-color: black;
     color: whitesmoke;
-    height: 100%;
 }
 
 .container {
@@ -16,6 +15,7 @@ body {
 }
 
 
+/* -------- Animated background Stuff --------- */
 html,
 body {
     margin: 0;
@@ -29,3 +29,5 @@ body {
     left: 0;
     z-index: 0;
 }
+
+/* -------------------------------------- */
