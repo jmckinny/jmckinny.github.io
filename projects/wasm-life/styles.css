@@ -1,0 +1,39 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+button {
+    width: 4rem;
+    height: 2rem;
+}
+
+.yellow-bg {
+    background-color: yellow;
+}
+
+.green-bg {
+    background-color: green;
+}
+
+#fps {
+    white-space: pre;
+    font-family: monospace;
+    text-align: right;
+    width: 100%;
+}
