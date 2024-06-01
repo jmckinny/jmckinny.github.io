@@ -1,38 +1,40 @@
 <!doctype html>
 <html lang="en" class="dark">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="/projects/minesvelte/favicon.ico" />
-		<title>Minesweeper</title>
-		<meta name="viewport" content="width=device-width" />
-		
-		<link rel="modulepreload" href="/projects/minesvelte/_app/immutable/entry/start.tnss6lzt.js">
-		<link rel="modulepreload" href="/projects/minesvelte/_app/immutable/chunks/entry.Kz7oZKSq.js">
-		<link rel="modulepreload" href="/projects/minesvelte/_app/immutable/chunks/scheduler.s4keOlH5.js">
-		<link rel="modulepreload" href="/projects/minesvelte/_app/immutable/chunks/index.M-qtvb0m.js">
-		<link rel="modulepreload" href="/projects/minesvelte/_app/immutable/entry/app.IPFO4fIG.js">
-		<link rel="modulepreload" href="/projects/minesvelte/_app/immutable/chunks/index.HxSdVWBd.js">
-	</head>
 
-	<body data-sveltekit-preload-data="hover" data-theme="skeleton">
-		<div style="display: contents">
-			<script>
-				{
-					__sveltekit_15mjtw9 = {
-						base: "/projects/minesvelte",
-						assets: "/projects/minesvelte"
-					};
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/projects/minesvelte/favicon.ico" />
+	<title>Minesweeper</title>
+	<meta name="viewport" content="width=device-width" />
 
-					const element = document.currentScript.parentElement;
+	<link rel="modulepreload" href="/projects/minesvelte/app/immutable/entry/start.tnss6lzt.js">
+	<link rel="modulepreload" href="/projects/minesvelte/app/immutable/chunks/entry.Kz7oZKSq.js">
+	<link rel="modulepreload" href="/projects/minesvelte/app/immutable/chunks/scheduler.s4keOlH5.js">
+	<link rel="modulepreload" href="/projects/minesvelte/app/immutable/chunks/index.M-qtvb0m.js">
+	<link rel="modulepreload" href="/projects/minesvelte/app/immutable/entry/app.IPFO4fIG.js">
+	<link rel="modulepreload" href="/projects/minesvelte/app/immutable/chunks/index.HxSdVWBd.js">
+</head>
 
-					Promise.all([
-						import("/projects/minesvelte/_app/immutable/entry/start.tnss6lzt.js"),
-						import("/projects/minesvelte/_app/immutable/entry/app.IPFO4fIG.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element);
-					});
-				}
-			</script>
-		</div>
-	</body>
+<body data-sveltekit-preload-data="hover" data-theme="skeleton">
+	<div style="display: contents">
+		<script>
+			{
+				__sveltekit_15mjtw9 = {
+					base: "/projects/minesvelte",
+					assets: "/projects/minesvelte"
+				};
+
+				const element = document.currentScript.parentElement;
+
+				Promise.all([
+					import("/projects/minesvelte/app/immutable/entry/start.tnss6lzt.js"),
+					import("/projects/minesvelte/app/immutable/entry/app.IPFO4fIG.js")
+				]).then(([kit, app]) => {
+					kit.start(app, element);
+				});
+			}
+		</script>
+	</div>
+</body>
+
 </html>
